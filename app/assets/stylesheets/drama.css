@@ -1,0 +1,75 @@
+.topBox{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.drama {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    /* margin: 10px; */
+}
+
+figcaption {
+    text-align: center;
+}
+figure {
+
+}
+div.drama {
+   
+
+}
+img {
+    width:540px;
+    height:807px;
+}
+img.main{
+    width: 240px;
+    height: 360px;
+    margin-right: 10px;
+}
+
+div.howMany {
+    margin-bottom: 80px;
+    width: fit-content;
+    height: fit-content;
+    margin: 80px;
+    text-align: center;
+}
+div.sisisi {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+div.sicheongryul {
+    background: blue;
+    /* margin-left: 100px; */
+    /* display: flex; */
+    
+}
+.sicheongryul span {
+    
+}
+div.hello {
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+    /* margin-bottom: 100px; */
+    text-align: center;
+    flex-flow: row nowrap;
+}
+div.number {
+    width: fit-content;
+}
+div.numnum {
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+    /* margin-bottom: 100px; */
+    text-align: center;
+    flex-flow: row nowrap;
+}

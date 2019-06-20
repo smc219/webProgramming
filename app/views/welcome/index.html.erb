@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>웹프개 과제</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Custom styles for this template -->
+    <!--<link href="jumbotron.css" rel="stylesheet">-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          
+          
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">아침 드라마, 어디까지 알고 있나요?</h1>
+        <p>아침드라마는 막장드라마라는 얘기, 아침드라마는 이상하다는 얘기는 자주 합니다. 하지만 그렇게 말하는 저희들은 아침드라마에 대해서 얼마나 알고 있을까요?<br> 상반기 방영중인 아침드라마들을 중심으로 평균 몇 부작인지
+          그리고 어느정도 시청률 추이를 보이는지 한번 확인해보고자 합니다.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4" margin = "10px">
+          <h2>비켜라 운명아</h2>
+          
+          <<%= image_tag 'bDestiny.jpeg', :class => "img-rounded", :width => "200", :height => "120" %>
+          <p>엄마의 수술비를 벌기 위해 철부지 재벌 상속남을 사랑하는 척했던 여자가 그 남자를 진짜로 사랑하게 되는 이야기로, 재벌의 민낯과 그들의 변화를 통해 사랑의 소중함을 알리는 좌충우돌 눈물 로맨스 드라마</p>
+          
+          
+          <%= link_to 'View details' ,  drama_drama1_url, :class => "btn btn-secondary" %>
+        </div>
+        <div class="col-md-4">
+          <h2>강남 스캔들</h2>
+          
+          <%= image_tag 'kangnamScandle.jpeg', :class => "img-rounded", :width => "200", :height => "120" %>
+          <p>엄마의 수술비를 벌기 위해 철부지 재벌 상속남을 사랑하는 척했던 여자가 그 남자를 진짜로 사랑하게 되는 이야기로, 재벌의 민낯과 그들의 변화를 통해 사랑의 소중함을 알리는 좌충우돌 눈물 로맨스 드라마 닫기</p>
+          
+          <%= link_to 'View details' ,  drama_drama2_url, :class => "btn btn-secondary" %>
+        </div>
+        <div class="col-md-4">
+          <h2>용왕님 보우하사</h2>
+          <%= image_tag '용왕님보우하사2.jpg', :class => "img-rounded", :width => "200", :height => "120" %>
+          
+          
+          <p>세상 만물의 수천 가지 색을 읽어내는 '절대 시각'을 가진 여자가 세상을 흑백으로만 보는 피아니스트를 만나 사랑과 인생의 아름다움을 나누고, 잃어버린 아버지의 비밀을 찾아내는 현대판 심청이 이야기를 그린 드라마</p>
+          <!--<p><a class="btn btn-secondary" href="theDrangonKingBowusa.html" role="button">View details &raquo;</a></p>-->
+          <%= link_to 'View details' ,  drama_drama3_url, :class => "btn btn-secondary" %>
+        </div>
+        <div class="col-md-4">
+            
+            <%= image_tag '왼손잡이.jpg', :class => "img-rounded", :width => "200", :height => "120" %>
+            <h2>왼손잡이 아내</h2>
+            <p>충격적인 사고로 다른 사람의 인생을 살게 된 남자와 신혼여행지에서 사라진 남편을 찾아 헤매는 여자, 뒤엉킨 욕망 속에서 두 남녀가 자신들의 진짜 사랑과 가족을 찾아가는 반전 멜로 드라마</p>
+            
+            <%= link_to 'View details' ,  drama_drama4_url, :class => "btn btn-secondary" %>
+          </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2017</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/vendor/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
